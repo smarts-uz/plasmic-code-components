@@ -1,0 +1,131 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "jmHNNnoWA4E72wFFsdNVMq",
+      "projectApiToken": "l13kTUxMQE0gVLzR45i04wLxTAfAYXXy0OaZdEeBd2hKssc4fQ8asRc7VDn2ZJ41JBjYNTyXzmyxF07CKOuA",
+      "projectName": "Website starter",
+      "version": "latest",
+      "cssFilePath": "plasmic/website_starter/plasmic.module.css",
+      "components": [
+        {
+          "id": "pgXlcJZQMfkX",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "jmHNNnoWA4E72wFFsdNVMq",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "RT6_FUjkScBF",
+          "name": "Login",
+          "type": "managed",
+          "projectId": "jmHNNnoWA4E72wFFsdNVMq",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicLogin.jsx",
+          "importSpec": {
+            "modulePath": "../pages/login.jsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/login"
+        },
+        {
+          "id": "LYc1ZYqZ90nF",
+          "name": "Register",
+          "type": "managed",
+          "projectId": "jmHNNnoWA4E72wFFsdNVMq",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicRegister.jsx",
+          "importSpec": {
+            "modulePath": "../pages/register.jsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicRegister.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/register"
+        },
+        {
+          "id": "5bbB5GWKea2r",
+          "name": "Auth",
+          "type": "managed",
+          "projectId": "jmHNNnoWA4E72wFFsdNVMq",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicAuth.jsx",
+          "importSpec": {
+            "modulePath": "Auth.jsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicAuth.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "laJAE0koF8Bi",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "gGSZCmGJbhFT",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "7KdjsTBKH8Ju",
+          "name": "LoginForm",
+          "displayName": "LoginForm",
+          "componentImportPath": "./src/components/LoginForm"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "l__pgJUmTv2X",
+        "name": "Screen",
+        "projectId": "jmHNNnoWA4E72wFFsdNVMq",
+        "contextFilePath": "plasmic/website_starter/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}
